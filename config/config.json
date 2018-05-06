@@ -1,0 +1,6 @@
+{
+    "pipeline": "spacy_sklearn",
+    "path" : "models/",
+    "data" : "training_data/ngo_format.json",
+    "language" : "en"
+  }

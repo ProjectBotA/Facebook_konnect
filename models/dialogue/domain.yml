@@ -1,0 +1,409 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_goodbye
+- utter_ask
+- utter_did_that_help
+- utter_children
+- utter_okay
+- utter_okay_donation_online
+- utter_okay_donation_offline
+- utter_women
+- utter_location
+- utter_field
+- utter_name
+- utter_education
+- utter_category
+- utter_donation
+- utter_donation_in_kind
+- action_search_ngo_name
+- action_donate_online
+actions:
+- utter_greet
+- utter_goodbye
+- utter_ask
+- utter_did_that_help
+- utter_children
+- utter_okay
+- utter_okay_donation_online
+- utter_okay_donation_offline
+- utter_women
+- utter_location
+- utter_field
+- utter_name
+- utter_education
+- utter_category
+- utter_donation
+- utter_donation_in_kind
+- actions.ActionSearchNGOName
+- actions.ActionDonateOnline
+config:
+  store_entities_as_slots: true
+entities:
+- location
+- field
+- name
+intents:
+- NGO_search_direct
+- NGO_search
+- NGO_donation
+- affirm
+- goodbye
+slots: {}
+templates:
+  utter_ask:
+  - text: What is your query?
+  utter_category:
+  - text: P
+  - text: l
+  - text: e
+  - text: a
+  - text: s
+  - text: e
+  - text: ' '
+  - text: s
+  - text: p
+  - text: e
+  - text: c
+  - text: i
+  - text: f
+  - text: y
+  - text: ' '
+  - text: c
+  - text: a
+  - text: t
+  - text: e
+  - text: g
+  - text: o
+  - text: r
+  - text: y
+  utter_children:
+  - text: The NGOs related to children are
+  utter_did_that_help:
+  - text: Was the information useful?
+  utter_donation:
+  - text: W
+  - text: o
+  - text: u
+  - text: l
+  - text: d
+  - text: ' '
+  - text: y
+  - text: o
+  - text: u
+  - text: ' '
+  - text: l
+  - text: i
+  - text: k
+  - text: e
+  - text: ' '
+  - text: t
+  - text: o
+  - text: ' '
+  - text: d
+  - text: o
+  - text: n
+  - text: a
+  - text: t
+  - text: e
+  - text: ' '
+  - text: o
+  - text: n
+  - text: l
+  - text: i
+  - text: n
+  - text: e
+  - text: ' '
+  - text: o
+  - text: r
+  - text: ' '
+  - text: i
+  - text: n
+  - text: ' '
+  - text: k
+  - text: i
+  - text: n
+  - text: d
+  - text: '?'
+  utter_donation_in_kind:
+  - text: W
+  - text: h
+  - text: a
+  - text: t
+  - text: ' '
+  - text: w
+  - text: o
+  - text: u
+  - text: l
+  - text: d
+  - text: ' '
+  - text: y
+  - text: o
+  - text: u
+  - text: ' '
+  - text: l
+  - text: i
+  - text: k
+  - text: e
+  - text: ' '
+  - text: t
+  - text: o
+  - text: ' '
+  - text: d
+  - text: o
+  - text: n
+  - text: a
+  - text: t
+  - text: e
+  - text: '?'
+  - text: ' '
+  - text: P
+  - text: l
+  - text: e
+  - text: a
+  - text: s
+  - text: e
+  - text: ' '
+  - text: s
+  - text: p
+  - text: e
+  - text: c
+  - text: i
+  - text: f
+  - text: y
+  - text: ' '
+  - text: t
+  - text: h
+  - text: e
+  - text: ' '
+  - text: i
+  - text: t
+  - text: e
+  - text: m
+  - text: ' '
+  - text: a
+  - text: n
+  - text: d
+  - text: ' '
+  - text: q
+  - text: u
+  - text: a
+  - text: n
+  - text: t
+  - text: i
+  - text: t
+  - text: y
+  - text: .
+  utter_education:
+  - text: T
+  - text: h
+  - text: e
+  - text: ' '
+  - text: N
+  - text: G
+  - text: O
+  - text: s
+  - text: ' '
+  - text: r
+  - text: e
+  - text: l
+  - text: a
+  - text: t
+  - text: e
+  - text: d
+  - text: ' '
+  - text: t
+  - text: o
+  - text: ' '
+  - text: e
+  - text: d
+  - text: u
+  - text: c
+  - text: a
+  - text: t
+  - text: i
+  - text: o
+  - text: n
+  - text: ' '
+  - text: a
+  - text: r
+  - text: e
+  utter_field:
+  - text: P
+  - text: l
+  - text: e
+  - text: a
+  - text: s
+  - text: e
+  - text: ' '
+  - text: s
+  - text: e
+  - text: c
+  - text: i
+  - text: f
+  - text: y
+  - text: ' '
+  - text: t
+  - text: h
+  - text: e
+  - text: ' '
+  - text: t
+  - text: a
+  - text: r
+  - text: g
+  - text: e
+  - text: t
+  utter_goodbye:
+  - text: Hope your query has been answered. Have a nice day !
+  utter_greet:
+  - text: Hello, how can I help you?
+  - text: Hi, I am here to help.
+  utter_location:
+  - text: The NGOs related to this location are
+  utter_name:
+  - text: The NGO you are looking for has the following information
+  utter_okay:
+  - text: Okay
+  utter_okay_donation_offline:
+  - text: T
+  - text: h
+  - text: a
+  - text: n
+  - text: k
+  - text: ' '
+  - text: y
+  - text: o
+  - text: u
+  - text: ' '
+  - text: f
+  - text: o
+  - text: r
+  - text: ' '
+  - text: d
+  - text: o
+  - text: n
+  - text: a
+  - text: t
+  - text: i
+  - text: n
+  - text: g
+  - text: .
+  - text: ' '
+  - text: F
+  - text: u
+  - text: r
+  - text: t
+  - text: h
+  - text: e
+  - text: r
+  - text: ' '
+  - text: i
+  - text: n
+  - text: s
+  - text: t
+  - text: r
+  - text: u
+  - text: c
+  - text: t
+  - text: i
+  - text: o
+  - text: n
+  - text: s
+  - text: ' '
+  - text: w
+  - text: o
+  - text: u
+  - text: l
+  - text: d
+  - text: ' '
+  - text: b
+  - text: e
+  - text: ' '
+  - text: m
+  - text: a
+  - text: i
+  - text: l
+  - text: e
+  - text: d
+  - text: ' '
+  - text: t
+  - text: o
+  - text: ' '
+  - text: y
+  - text: o
+  - text: u
+  utter_okay_donation_online:
+  - text: T
+  - text: h
+  - text: a
+  - text: n
+  - text: k
+  - text: ' '
+  - text: y
+  - text: o
+  - text: u
+  - text: ' '
+  - text: f
+  - text: o
+  - text: r
+  - text: ' '
+  - text: d
+  - text: o
+  - text: n
+  - text: a
+  - text: t
+  - text: i
+  - text: n
+  - text: g
+  - text: .
+  - text: ' '
+  - text: Y
+  - text: o
+  - text: u
+  - text: r
+  - text: ' '
+  - text: t
+  - text: r
+  - text: a
+  - text: n
+  - text: s
+  - text: a
+  - text: c
+  - text: t
+  - text: i
+  - text: o
+  - text: n
+  - text: ' '
+  - text: d
+  - text: e
+  - text: t
+  - text: a
+  - text: i
+  - text: l
+  - text: s
+  - text: ' '
+  - text: w
+  - text: o
+  - text: u
+  - text: l
+  - text: d
+  - text: ' '
+  - text: b
+  - text: e
+  - text: ' '
+  - text: m
+  - text: a
+  - text: i
+  - text: l
+  - text: e
+  - text: d
+  - text: ' '
+  - text: t
+  - text: o
+  - text: ' '
+  - text: y
+  - text: o
+  - text: u
+  utter_women:
+  - text: The NGOs related to women are
+topics: []

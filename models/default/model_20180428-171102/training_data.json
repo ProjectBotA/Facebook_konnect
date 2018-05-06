@@ -1,0 +1,60 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [],
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "know-organisation",
+        "text": "I want to know about Matoshri Shakuntala Kale Foundation",
+        "entities": [
+          {
+            "value": "Matoshri Shakuntala Kale Foundation",
+            "start": 21,
+            "end": 56,
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "intent": "know-organisation",
+        "text": "Details about Green Thumb",
+        "entities": [
+          {
+            "value": "Green Thumb",
+            "start": 14,
+            "end": 25,
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "intent": "know-organisation",
+        "text": "I am interested in knowing about Mashal",
+        "entities": [
+          {
+            "value": "Green Thumb",
+            "start": 33,
+            "end": 39,
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "intent": "donate",
+        "text": "I want to make a donation"
+      },
+      {
+        "intent": "donate",
+        "text": "I want to help"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      }
+    ],
+    "entity_synonyms": []
+  }
+}

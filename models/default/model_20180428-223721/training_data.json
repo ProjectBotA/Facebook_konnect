@@ -1,0 +1,564 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hello",
+        "intent": "greet"
+      },
+      {
+        "text": "I want to know about Matoshri Shakuntala Kale Foundation",
+        "entities": [
+          {
+            "value": "Matoshri Shakuntala Kale Foundation",
+            "start": 21,
+            "end": 56,
+            "entity": "name"
+          }
+        ],
+        "intent": "know-organisation"
+      },
+      {
+        "text": "Details about Green Thumb",
+        "entities": [
+          {
+            "value": "Green Thumb",
+            "start": 14,
+            "end": 25,
+            "entity": "name"
+          }
+        ],
+        "intent": "know-organisation"
+      },
+      {
+        "text": "I am interested in knowing about Mashal",
+        "entities": [
+          {
+            "value": "Mashal",
+            "start": 33,
+            "end": 39,
+            "entity": "name"
+          }
+        ],
+        "intent": "know-organisation"
+      },
+      {
+        "text": "I want to make a donation",
+        "intent": "donate"
+      },
+      {
+        "text": "I want to help",
+        "intent": "donate"
+      },
+      {
+        "text": "hey",
+        "intent": "greet"
+      },
+      {
+        "text": "hey",
+        "intent": "greet"
+      },
+      {
+        "text": "howdy",
+        "intent": "greet"
+      },
+      {
+        "text": "hey there",
+        "intent": "greet"
+      },
+      {
+        "text": "hello",
+        "intent": "greet"
+      },
+      {
+        "text": "hi",
+        "intent": "greet"
+      },
+      {
+        "text": "good morning",
+        "intent": "greet"
+      },
+      {
+        "text": "good evening",
+        "intent": "greet"
+      },
+      {
+        "text": "dear sir",
+        "intent": "greet"
+      },
+      {
+        "text": "yes",
+        "intent": "affirm"
+      },
+      {
+        "text": "yep",
+        "intent": "affirm"
+      },
+      {
+        "text": "yeah",
+        "intent": "affirm"
+      },
+      {
+        "text": "indeed",
+        "intent": "affirm"
+      },
+      {
+        "text": "that's right",
+        "intent": "affirm"
+      },
+      {
+        "text": "ok",
+        "intent": "affirm"
+      },
+      {
+        "text": "great",
+        "intent": "affirm"
+      },
+      {
+        "text": "right, thank you",
+        "intent": "affirm"
+      },
+      {
+        "text": "correct",
+        "intent": "affirm"
+      },
+      {
+        "text": "great choice",
+        "intent": "affirm"
+      },
+      {
+        "text": "sounds really good",
+        "intent": "affirm"
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye"
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye"
+      },
+      {
+        "text": "good bye",
+        "intent": "goodbye"
+      },
+      {
+        "text": "stop",
+        "intent": "goodbye"
+      },
+      {
+        "text": "end",
+        "intent": "goodbye"
+      },
+      {
+        "text": "farewell",
+        "intent": "goodbye"
+      },
+      {
+        "text": "Bye bye",
+        "intent": "goodbye"
+      },
+      {
+        "text": "have a good day",
+        "intent": "goodbye"
+      },
+      {
+        "text": "I am looking for an NGO to donate",
+        "intent": "NGO_donation"
+      },
+      {
+        "text": "NGO to donate",
+        "intent": "NGO_donation"
+      },
+      {
+        "text": "Give me the names of the NGOs",
+        "intent": "NGO_search"
+      },
+      {
+        "text": "NGOs which I can donate to",
+        "intent": "NGO_donation"
+      },
+      {
+        "text": "Help me find an NGO",
+        "intent": "NGO_search"
+      },
+      {
+        "text": "I want to make a donation",
+        "intent": "NGO_donation"
+      },
+      {
+        "text": "I want to donate.",
+        "intent": "NGO_donation"
+      },
+      {
+        "text": "Where can I donate?",
+        "intent": "NGO_donation"
+      },
+      {
+        "text": "NGOs where i can volunteer and donate",
+        "intent": "NGO_donation"
+      },
+      {
+        "text": "I want to make a difference by donating to an NGO",
+        "intent": "NGO_donation"
+      },
+      {
+        "text": "Suggest me an NGO to donate",
+        "intent": "NGO_donation"
+      },
+      {
+        "text": "Show me some NGOs",
+        "intent": "NGO_search"
+      },
+      {
+        "text": "show me NGOs which are related to education ",
+        "entities": [
+          {
+            "value": "education",
+            "start": 34,
+            "end": 43,
+            "entity": "field"
+          }
+        ],
+        "intent": "NGO_search"
+      },
+      {
+        "text": "education related NGOs ",
+        "entities": [
+          {
+            "value": "education",
+            "start": 0,
+            "end": 9,
+            "entity": "field"
+          }
+        ],
+        "intent": "NGO_search"
+      },
+      {
+        "text": "education NGOs",
+        "entities": [
+          {
+            "value": "education",
+            "start": 0,
+            "end": 9,
+            "entity": "field"
+          }
+        ],
+        "intent": "NGO_search"
+      },
+      {
+        "text": "edu NGOS",
+        "entities": [
+          {
+            "value": "education",
+            "start": 0,
+            "end": 3,
+            "entity": "field"
+          }
+        ],
+        "intent": "NGO_search"
+      },
+      {
+        "text": "show me NGOs which are related to education of children",
+        "entities": [
+          {
+            "value": "education",
+            "start": 34,
+            "end": 43,
+            "entity": "field"
+          },
+          {
+            "value": "children",
+            "start": 47,
+            "end": 55,
+            "entity": "field"
+          }
+        ],
+        "intent": "NGO_search"
+      },
+      {
+        "text": "NGOs which work towards the education of children",
+        "entities": [
+          {
+            "value": "education",
+            "start": 28,
+            "end": 37,
+            "entity": "field"
+          },
+          {
+            "value": "children",
+            "start": 41,
+            "end": 49,
+            "entity": "field"
+          }
+        ],
+        "intent": "NGO_search"
+      },
+      {
+        "text": "show me NGOs which are related to women",
+        "entities": [
+          {
+            "value": "women",
+            "start": 34,
+            "end": 39,
+            "entity": "field"
+          }
+        ],
+        "intent": "NGO_search"
+      },
+      {
+        "text": "women empowerment related NGOs ",
+        "entities": [
+          {
+            "value": "women",
+            "start": 0,
+            "end": 17,
+            "entity": "field"
+          }
+        ],
+        "intent": "NGO_search"
+      },
+      {
+        "text": "women empowerment NGOs",
+        "entities": [
+          {
+            "value": "women",
+            "start": 0,
+            "end": 17,
+            "entity": "field"
+          }
+        ],
+        "intent": "NGO_search"
+      },
+      {
+        "text": "NGOs which help towards the betterment of women",
+        "entities": [
+          {
+            "value": "women",
+            "start": 42,
+            "end": 47,
+            "entity": "field"
+          }
+        ],
+        "intent": "NGO_search"
+      },
+      {
+        "text": "NGOs which work towards the literacy of women",
+        "entities": [
+          {
+            "value": "education",
+            "start": 28,
+            "end": 36,
+            "entity": "field"
+          },
+          {
+            "value": "women",
+            "start": 40,
+            "end": 45,
+            "entity": "field"
+          }
+        ],
+        "intent": "NGO_search"
+      },
+      {
+        "text": "show me NGOs which are related to children ",
+        "entities": [
+          {
+            "value": "children",
+            "start": 34,
+            "end": 42,
+            "entity": "field"
+          }
+        ],
+        "intent": "NGO_search"
+      },
+      {
+        "text": "child related NGOs ",
+        "entities": [
+          {
+            "value": "children",
+            "start": 0,
+            "end": 5,
+            "entity": "field"
+          }
+        ],
+        "intent": "NGO_search"
+      },
+      {
+        "text": "NGOs working for children ",
+        "entities": [
+          {
+            "value": "children",
+            "start": 17,
+            "end": 25,
+            "entity": "field"
+          }
+        ],
+        "intent": "NGO_search"
+      },
+      {
+        "text": "NGOs which provides for children",
+        "entities": [
+          {
+            "value": "children",
+            "start": 24,
+            "end": 32,
+            "entity": "field"
+          }
+        ],
+        "intent": "NGO_search"
+      },
+      {
+        "text": "NGOs for child care",
+        "entities": [
+          {
+            "value": "children",
+            "start": 9,
+            "end": 19,
+            "entity": "field"
+          }
+        ],
+        "intent": "NGO_search"
+      },
+      {
+        "text": "NGOs for children literacy",
+        "entities": [
+          {
+            "value": "children",
+            "start": 9,
+            "end": 17,
+            "entity": "field"
+          },
+          {
+            "value": "education",
+            "start": 18,
+            "end": 26,
+            "entity": "field"
+          }
+        ],
+        "intent": "NGO_search"
+      },
+      {
+        "text": "NGOs for children literacy",
+        "entities": [
+          {
+            "value": "children",
+            "start": 9,
+            "end": 17,
+            "entity": "field"
+          },
+          {
+            "value": "education",
+            "start": 18,
+            "end": 26,
+            "entity": "field"
+          }
+        ],
+        "intent": "NGO_search"
+      },
+      {
+        "text": "NGOs working for women and child empowerment",
+        "entities": [
+          {
+            "value": "women",
+            "start": 17,
+            "end": 22,
+            "entity": "field"
+          },
+          {
+            "value": "children",
+            "start": 27,
+            "end": 44,
+            "entity": "field"
+          }
+        ],
+        "intent": "NGO_search"
+      },
+      {
+        "text": "show me the NGOs which work towards environment welfare ",
+        "entities": [
+          {
+            "value": "environment",
+            "start": 36,
+            "end": 47,
+            "entity": "field"
+          }
+        ],
+        "intent": "NGO_search"
+      },
+      {
+        "text": "NGOs for improvement of environment ",
+        "entities": [
+          {
+            "value": "environment",
+            "start": 24,
+            "end": 35,
+            "entity": "field"
+          }
+        ],
+        "intent": "NGO_search"
+      },
+      {
+        "text": "NGOs in and around pune",
+        "entities": [
+          {
+            "value": "Pune",
+            "start": 19,
+            "end": 23,
+            "entity": "location"
+          }
+        ],
+        "intent": "NGO_search"
+      },
+      {
+        "text": "NGOs which are present in Pune city",
+        "entities": [
+          {
+            "value": "Pune",
+            "start": 26,
+            "end": 35,
+            "entity": "location"
+          }
+        ],
+        "intent": "NGO_search"
+      },
+      {
+        "text": "NGOs which provide for children in Pune",
+        "entities": [
+          {
+            "value": "children",
+            "start": 23,
+            "end": 31,
+            "entity": "field"
+          },
+          {
+            "value": "Pune",
+            "start": 35,
+            "end": 39,
+            "entity": "location"
+          }
+        ],
+        "intent": "NGO_search"
+      },
+      {
+        "text": "NGOs which works towards women empowerment in Pune",
+        "entities": [
+          {
+            "value": "women",
+            "start": 25,
+            "end": 42,
+            "entity": "field"
+          },
+          {
+            "value": "Pune",
+            "start": 46,
+            "end": 50,
+            "entity": "location"
+          }
+        ],
+        "intent": "NGO_search"
+      }
+    ],
+    "entity_synonyms": [],
+    "regex_features": []
+  }
+}

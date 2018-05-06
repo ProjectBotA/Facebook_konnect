@@ -1,0 +1,68 @@
+intents:
+  - NGO_search_direct
+  - NGO_search
+  - NGO_donation
+  - affirm
+  - goodbye
+
+entities:
+  - location
+  - field
+  - name
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_ask
+  - utter_did_that_help
+  - utter_children
+  - utter_okay
+  - utter_okay_donation_online
+  - utter_okay_donation_offline
+  - utter_women
+  - utter_location
+  - utter_field
+  - utter_name
+  - utter_education
+  - utter_category
+  - utter_donation
+  - utter_donation_in_kind
+  - actions.ActionSearchNGOName
+  - actions.ActionDonateOnline
+
+templates:
+  utter_greet:
+    - 'Hello, how can I help you?'
+    - 'Hi, I am here to help.'
+  utter_goodbye:
+    - 'Hope your query has been answered. Have a nice day !'
+  utter_ask:
+    - 'What is your query?'
+  utter_did_that_help:
+    - 'Was the information useful?'
+  utter_children:
+    - 'The NGOs related to children are'
+  utter_women:
+    - 'The NGOs related to women are'
+  utter_okay:
+    - 'Okay'
+  utter_location:
+    - 'The NGOs related to this location are'
+  utter_name:
+    - 'The NGO you are looking for has the following information'
+  utter_education:
+    'The NGOs related to education are'
+  utter_donation:
+    'Would you like to donate online or in kind?'
+  utter_field:
+    'Please secify the target'
+  utter_category:
+    'Please specify category'
+  utter_donation_in_kind:
+    'What would you like to donate? Please specify the item and quantity.'
+  utter_okay_donation_online:
+    'Thank you for donating. Your transaction details would be mailed to you'
+  utter_okay_donation_offline:
+    'Thank you for donating. Further instructions would be mailed to you'
+
+

@@ -1,0 +1,32 @@
+{
+  "features": [
+    "intent_NGO_search_direct",
+    "intent_NGO_search",
+    "intent_NGO_donation",
+    "intent_affirm",
+    "intent_goodbye",
+    "entity_location",
+    "entity_field",
+    "entity_name",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_utter_greet",
+    "prev_utter_goodbye",
+    "prev_utter_ask",
+    "prev_utter_did_that_help",
+    "prev_utter_children",
+    "prev_utter_okay",
+    "prev_utter_okay_donation_online",
+    "prev_utter_okay_donation_offline",
+    "prev_utter_women",
+    "prev_utter_location",
+    "prev_utter_field",
+    "prev_utter_name",
+    "prev_utter_education",
+    "prev_utter_category",
+    "prev_utter_donation",
+    "prev_utter_donation_in_kind",
+    "prev_action_search_ngo_name",
+    "prev_action_donate_online"
+  ]
+}
