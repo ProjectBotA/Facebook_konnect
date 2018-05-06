@@ -78,4 +78,5 @@ def send_message(recipient_id, text):
     return response.json()		
 		
 if __name__=='__main__':
-	app.run(debug=True)
+    port=int(os.environ["PATH"])
+	app.run(debug=True, port = port,host="0.0.0.0")
